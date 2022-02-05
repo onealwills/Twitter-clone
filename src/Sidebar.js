@@ -17,7 +17,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       {/* twitter icon */}
-      <TwitterIcon />
+      <TwitterIcon className="sidebar__twitterIcon" />
       <SidebarOption active Icon={HomeIcon} text="home" />
       <SidebarOption Icon={SearchIcon} text="explore" />
       <SidebarOption Icon={NotificationsNoneIcon} text="Notification" />
